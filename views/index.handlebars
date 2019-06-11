@@ -1,0 +1,49 @@
+<nav class = "navbar navbar-dark bg-dark" >
+<p class="text-light text-xl-left font-weight-bold text-justify">幹話產生器</p>
+</nav>
+
+<div class="container py-5">
+	<div>
+		<h2 class="text-center font-weight-bold text-justify">你想對誰說幹話?</h2>
+	</div>
+	<form method="POST" action="/">
+	<div class="row py-5 text-justify">
+
+		<div class="col-sm-4 text-right">
+			<img class = "rounded img-fluid" style = "width: 200px; height:200px;"src="https://picsum.photos/id/1/5616/3744" alt='engineer'>
+			<div style="margin-right: 60px;">
+				<input type="radio" name="engineer" {{#if options.engineer}}checked{{/if}}>
+				<span>工程師</span>
+			</div>
+		</div>
+
+
+		<div class="col-sm-4 text-center">
+			<img class = "rounded img-fluid" style ="width: 200px; height:200px;"src="https://picsum.photos/id/633/1818/1228" alt='designer'>
+			<div>
+				<input type="radio"  name="designer" {{#if options.designer}}checked{{/if}}>
+				<span>設計師</span>
+			</div>
+		</div>
+
+
+		<div class="col-sm-4 text-left">
+			
+			<img class = "rounded img-fluid" style = "width: 200px; height:200px;"src="https://picsum.photos/id/513/4373/3280" alt='entrepreneur'>
+			<div style="margin-left: 60px; ">
+				<input type="radio"  name="business" {{#if options.entrepreneur}}checked{{/if}}>
+				<span>創業家</span>
+		  </div>
+	  </div>
+	</div>	
+
+		<div class="row py-3" >
+			<div class = "col-sm-3 mx-2 text-center">
+				<button class="btn btn-sm btn-info" data-toggle="popover" type="submit">Generate Trash Talk</button>
+			</div>	
+			<div class="border border-secondary rounded col-sm-6" style="height: 70px;">
+				<span ></span> <code>{{showTrashTalk}}</code>
+			</div>
+		</div>
+  </form>
+</div>
