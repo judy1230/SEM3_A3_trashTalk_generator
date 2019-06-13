@@ -12,10 +12,12 @@ this project will run in node.js enviroment, install it by below command in your
 <pre><code>
 [~/] $ nvm install 10.15.0
 [~/] $ nvm install 10.15.
-
+</pre></code>
+# Display
+![Minion](https://upload.cc/i1/2019/06/13/uESzRT.gif)
 </pre></code>
 # Material
-<h4>browser:localhost＠port:1250</h4>
+<h4>browser: https://localhost＠port:1250</h4>
 <h4>software framewark: <h4>
 <h5>1. express: for sending req / res request</h5>
 <h5>2. mocha: for unit tests</h5>
