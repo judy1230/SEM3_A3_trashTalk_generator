@@ -1,14 +1,19 @@
 # Project
-<h2>Trash Talk Generator</h2>
+<h3>Trash Talk Generator</h3>
 
 # Getting Start
 <h4>getting start by downloading the project and running below command in teminal.</h4>
 <pre><code>
-[~/restaurant_list] $ npm i express
-[~/restaurant_list] $ npm run dev
-</pre></code>
-<h4>open browser, typing localhost:1250 to start </h4>
+[~/generate_trashtalk] $ npm i express
+[~/generate_trashtalk] $ npm run dev
+</pre><code>open browser, typing localhost:1250 to start </h4>
 
+this project will run in node.js enviroment, install it by below command in your teminal:
+<pre><code>
+[~/] $ nvm install 10.15.0
+[~/] $ nvm install 10.15.
+
+</pre></code>
 # Material
 <h4>browser:localhost＠port:1250</h4>
 <h4>software framewark: <h4>
