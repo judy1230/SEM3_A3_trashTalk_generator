@@ -2,7 +2,7 @@
 const express = require('express')
 const exphbs = require('express-handlebars')
 const bodyParser = require('body-parser') 
-const generateTrashTalk = require('./generate_trashTalk')
+const generateTrashTalk = require('./generateTrashTalk')
 const app = express()
 const port = 1250
 
